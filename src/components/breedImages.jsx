@@ -9,7 +9,7 @@ const BreedImages = ({images}) => {
     images.splice(toDelete, 1);
     console.log(images.splice(toDelete, 1));
     setImages(images)
-    console.log('toDelete',toDelete);
+    console.log('stateImages',Object.values(stateImages));
     console.log('images-after-deleting',images.length);   
   }
  

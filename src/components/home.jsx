@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 
 const Home = ({showButtons}) => {
-  const [reducedHeight, setHeight]=useState('')
   const buttons=()=>{
     showButtons()
   }
