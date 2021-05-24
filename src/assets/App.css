@@ -1,0 +1,24 @@
+@import './components/home.css';
+@import './components/breeds.css';
+@import './components/breedImages.css';
+@import './components/puppyImage.css';
+
+.App {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  text-align: center;
+  
+}
+
+button{
+  background-color: green;
+  border:none;
+  border-radius: 5%;
+  padding: 10px;
+  width: 100px;
+  color: white;
+  font-weight: bold;
+  
+  bottom: 0px;
+}
